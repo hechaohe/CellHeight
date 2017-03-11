@@ -15,6 +15,8 @@
 		47DD0D511E72A98300F584D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DD0D4F1E72A98300F584D5 /* LaunchScreen.storyboard */; };
 		47DD0D5C1E72A98400F584D5 /* TestCellHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DD0D5B1E72A98400F584D5 /* TestCellHeightTests.m */; };
 		47DD0D671E72A98400F584D5 /* TestCellHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DD0D661E72A98400F584D5 /* TestCellHeightUITests.m */; };
+		47DD0D771E72A9A200F584D5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DD0D751E72A9A200F584D5 /* TableViewCell.m */; };
+		47DD0D781E72A9A200F584D5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47DD0D761E72A9A200F584D5 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		47DD0D621E72A98400F584D5 /* TestCellHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCellHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DD0D661E72A98400F584D5 /* TestCellHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCellHeightUITests.m; sourceTree = "<group>"; };
 		47DD0D681E72A98400F584D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DD0D741E72A9A200F584D5 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		47DD0D751E72A9A200F584D5 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		47DD0D761E72A9A200F584D5 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				47DD0D451E72A98300F584D5 /* AppDelegate.m */,
 				47DD0D471E72A98300F584D5 /* ViewController.h */,
 				47DD0D481E72A98300F584D5 /* ViewController.m */,
+				47DD0D741E72A9A200F584D5 /* TableViewCell.h */,
+				47DD0D751E72A9A200F584D5 /* TableViewCell.m */,
+				47DD0D761E72A9A200F584D5 /* TableViewCell.xib */,
 				47DD0D4A1E72A98300F584D5 /* Main.storyboard */,
 				47DD0D4D1E72A98300F584D5 /* Assets.xcassets */,
 				47DD0D4F1E72A98300F584D5 /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DD0D511E72A98300F584D5 /* LaunchScreen.storyboard in Resources */,
+				47DD0D781E72A9A200F584D5 /* TableViewCell.xib in Resources */,
 				47DD0D4E1E72A98300F584D5 /* Assets.xcassets in Resources */,
 				47DD0D4C1E72A98300F584D5 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DD0D491E72A98300F584D5 /* ViewController.m in Sources */,
+				47DD0D771E72A9A200F584D5 /* TableViewCell.m in Sources */,
 				47DD0D461E72A98300F584D5 /* AppDelegate.m in Sources */,
 				47DD0D431E72A98300F584D5 /* main.m in Sources */,
 			);
