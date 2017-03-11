@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TableViewCell.h"
+#import "DetailController.h"
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSArray *strArr;
@@ -79,6 +80,40 @@
     cell.pic.image = [UIImage imageNamed:[_picArr objectAtIndex:indexPath.row]];
     return cell;
 }
+
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    DetailController *vc = [[DetailController alloc] init];
+    vc.showStr = [_strArr objectAtIndex:indexPath.row];
+    vc.showImage = [UIImage imageNamed:[_picArr objectAtIndex:indexPath.row]];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
